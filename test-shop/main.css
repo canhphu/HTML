@@ -7,3 +7,16 @@
     color: green;
     font-size: 40px
 }
+
+:root {
+    --text-color: black;
+}
+
+h1 {
+    color: var(--text-color);
+}
+
+h2 {
+    --my-color: purple;
+    color: var(--my-color);
+}
